@@ -1,6 +1,6 @@
 package n1ejercicio2;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         // Llamado a método estático
         Car.brake();
