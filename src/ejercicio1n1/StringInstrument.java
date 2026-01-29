@@ -8,8 +8,4 @@ public class StringInstrument extends Instrument {
     public void play() {
         System.out.println("A string instrument is playing");
     }
-
-    static {
-        System.out.println("La clase EjemploCarga ha sido cargada2");
-    }
 }
