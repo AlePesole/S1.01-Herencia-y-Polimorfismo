@@ -1,4 +1,4 @@
-package ejercicio1n1;
+package n1ejercicio1;
 
 public abstract class Instrument {
     private String name;
