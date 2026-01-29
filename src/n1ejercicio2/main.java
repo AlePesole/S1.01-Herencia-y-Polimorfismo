@@ -30,7 +30,7 @@ public class main {
         System.out.println("Car 3: " + car3);
 
         //Prueba de modificación: static final power
-        System.out.println("\n•Cambio de valor static model");
+        System.out.println("\n•Cambio de valor static power");
         //car1.power = 200; ERROR: no se puede modificar
         System.out.println("ERROR: no se puede modificar variable final");
 
