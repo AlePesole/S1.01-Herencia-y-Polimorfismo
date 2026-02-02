@@ -121,7 +121,7 @@ public class MenuMain {
                         }
                     };
 
-                    boolean completado = gestor.introducirNoticia(dni, noticia);
+                    boolean completado = gestor.introducirNoticiaRedactor(dni, noticia);
                     if(!completado) {
                         System.out.println("Dni no encontrado o noticia no creada");
                     } else {

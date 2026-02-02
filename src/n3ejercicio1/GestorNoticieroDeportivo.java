@@ -48,7 +48,7 @@ public class GestorNoticieroDeportivo {
     }
 
     /** retorna true si añadió la noticia, si no 'false' */
-    public boolean introducirNoticia(String dni, Noticia noticia) {
+    public boolean introducirNoticiaRedactor(String dni, Noticia noticia) {
         Redactor redactor = obtenerRedactor(dni);
         if(redactor != null && noticia != null) {
             redactor.añadirNoticia(noticia);
