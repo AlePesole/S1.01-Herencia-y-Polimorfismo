@@ -15,17 +15,17 @@
 - ¿Qué es un blog de inicialización (sin static)?
 - ¿Cuándo se ejecuta?
 - ¿Qué diferencia hay entre éste y un blog static?
-Ver `readme.md` del ejercicio para las respuestas.
+-Ver `readme.md` del ejercicio para las respuestas.
 
 ## 📌 Nivel 1 • Ejercicio 2 - Clase Coche
 
 -Crea una clase llamada `Car` con los siguientes atributos:
-`brand`: debe ser `static final`
-`model`: debe ser `static`
-`power`: debe ser `final`
+- `brand`: debe ser `static final`
+- `model`: debe ser `static`
+- `power`: debe ser `final`
 
 -Añade dos métodos:
-Un método estático llamado `brake()` y un método no estático llamado `accelerate()`
+-Un método estático llamado `brake()` y un método no estático llamado `accelerate()`
 
 ## 📌 Nivel 2 • Ejercicio 1 - Smartphone con múltiples funcionalidades
 -Crea una clase llamada `Phone` con información básica sobre un teléfono: `marca` y `modelo`. Esta clase debe incluir un método para realizar llamadas, que muestre por pantalla que se está llamando al número pasado como parámetro.
